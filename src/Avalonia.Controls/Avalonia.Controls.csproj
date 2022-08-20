@@ -10,7 +10,7 @@
     <Description>Some useful controls for Avalonia UI</Description>
     <Authors>Alexey Pozdnyakov</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>0.1.0</Version>
+    <Version>0.1.0-preview-1</Version>
   </PropertyGroup>
 
 	<ItemGroup>
