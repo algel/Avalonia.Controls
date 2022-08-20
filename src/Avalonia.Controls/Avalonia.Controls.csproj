@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Algel.Avalonia.Controls</AssemblyName>
+    <RootNamespace>Algel.Avalonia.Controls</RootNamespace>
+    <RepositoryUrl>https://github.com/algel/Avalonia.Controls.git</RepositoryUrl>
+    <Description>Some useful controls for Avalonia UI</Description>
+    <Authors>Alexey Pozdnyakov</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Avalonia" Version="0.10.14" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<AssemblyAttribute Include="Avalonia.Metadata.XmlnsPrefix">
+			<_Parameter1>https://github.com/algel/AvaloniaControls</_Parameter1>
+			<_Parameter2>aac</_Parameter2>
+		</AssemblyAttribute>
+		<AssemblyAttribute Include="Avalonia.Metadata.XmlnsDefinition">
+			<_Parameter1>https://github.com/algel/AvaloniaControls</_Parameter1>
+			<_Parameter2>Algel.Avalonia.Controls</_Parameter2>
+		</AssemblyAttribute>
+	</ItemGroup>
+
+</Project>
